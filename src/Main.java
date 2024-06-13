@@ -14,7 +14,23 @@ public class Main {
         for (String l: listaString){
             System.out.println(l);
         }
+        System.out.println("---------------------");
 
+        //Ejercicio 2
+
+        boolean m = listaString.contains("chau");
+        System.out.println(m);
+        System.out.println("---------------------");
+
+        //Ejercicio 3
+
+        listaString.remove("chau");
+        for (String l: listaString){
+            System.out.println(l);
+        }
+        System.out.println("---------------------");
+
+        //Ejercicio 4
 
 
 
